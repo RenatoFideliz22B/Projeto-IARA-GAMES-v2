@@ -71,3 +71,5 @@ O design foi desenvolvido com base em:
 ## 👨‍💻 Autor
 
 Renato Fideliz dos Santos Menezes RM: 570075
+
+- OBS: Acabei percebendo que faltou certas coisas mas vou corrigir isso no futuro, perdão.
