@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/loja.css">
+
+    <!-- Link do google fonts --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Red+Hat+Display:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+    <!-- Link do icone do controle do h1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Cabecalho da pagina iara games -->
+    <header class="header-page" id="header-page">
+    <a href="/home.html"><h1>IARA GA<span class="controller"><i class="bi bi-controller"></i></span>ES</h1></a>
+        <nav>
+            <ul class="header-menu" id="header-menu">
+                <li><a href="/home.html" class="item-menu" id="item-menu">Games</a></li>
+                <li><a href="#" class="item-menu">Galeria</a></li>
+            </ul>
+        </nav>
+
+        <!-- vídeo de fundo -->
+    <video class="video" autoplay muted loop playsinline>
+        <source src="../videos/gamer.mp4" type="video/mp4">
+    </video>
+
+    </header>
+
+    <section class="games-local" id="games-local">
+        <!-- BUSCA -->
+        <form class="form-buscar" id="form-buscar">
+            <input type="search" placeholder="Pesquisar jogo">
+        </form>
+
+        <!-- MENU LOCAL -->
+        <nav class="menu-local" id="menu-local">
+            <ul>
+                <li><a href="./assets/pages/loja.html" class="active">Loja</a></li>
+                <li><a href="#">Descobrir</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Carrinho</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- Filtro de jogos -->
+    <div class="topo-jogos">
+    <h1 class="games-h1">MAIS JOGADOS</h1>
+
+    <div class="filtro">
+        <div class="form-field">
+            <select name="tipo-jogos" id="tipo-jogos">
+                <option value="" disabled selected>Filtro</option>
+                <option value="Mais-jogados">Mais jogados</option>
+                <option value="Lançamentos">Lançamentos</option>
+                <option value="???">???</option>
+            </select>
+
+            <i class="fa-solid fa-angle-down icon"></i>
+        </div>
+    </div>
+</div>
+
+    <!-- Fim do filtro de jogos -->
+
+<section class="games-grid" id="games-grid">
+
+    <!-- Grid dos jogos -->
+    <div class="card-game realm-jogo" id="realm-loja">
+        <img class="game-img" src="../images/realm.png" alt="Realm">
+        <div class="card-game-info">
+            <h3>Realm of Arcana</h3>
+            <h3>R$: 329.99</h3>
+            <p>FPS | Arcade | PC - Mobile</p>
+            <footer class="card-footer">
+                <p><i class="bi bi-star-fill"></i> 4.9</p>
+                <p>250k+</p>
+            </footer>
+        </div>
+    </div>
+
+    <div class="card-game raiders-jogo" id="raiders-loja">
+        <img class="game-img" src="../images/raiders.png" alt="Raiders">
+        <div class="card-game-info">
+            <h3>Galaxy Raiders</h3>
+            <h3>R$: 99.99</h3>
+            <p>FPS | Arcade</p>
+            <footer class="card-footer">
+                <p><i class="bi bi-star-fill"></i> 5.0</p>
+                <p>240k+</p>
+            </footer>
+        </div>
+    </div>
+
+    <div class="card-game galatica-jogo" id="galatica-loja">
+        <img class="game-img" src="../images/galatica.png" alt="Starbound">
+        <div class="card-game-info">
+            <h3>Starbound</h3>
+            <h3>R$: 199.99</h3>
+            <p>FPS | Arcade</p>
+            <footer class="card-footer">
+                <p><i class="bi bi-star-fill"></i> 4.7</p>
+                <p>200k+</p>
+            </footer>
+        </div>
+    </div>
+
+    <div class="card-game perdida-jogo" id="perdida-loja">
+        <img class="game-img" src="../images/perdida.png" alt="Perdida">
+        <div class="card-game-info">
+            <h3>Sombra Perdida</h3>
+            <h3>R$: 249.99</h3>
+            <p>FPS | Arcade</p>
+            <footer class="card-footer">
+                <p><i class="bi bi-star-fill"></i> 3.1</p>
+                <p>185k+</p>
+            </footer>
+        </div>
+    </div>
+
+    <h1 class="games-h1">LANÇAMENTOS</h1>
+
+    <div class="card-game eclipse-jogo" id="eclipse-loja">
+        <img class="game-img" src="../images/eclipse.png" alt="Eclipse">
+        <div class="card-game-info">
+            <h3>Eclipse</h3>
+            <h3>R$: 139.99</h3>
+            <p>FPS | Arcade</p>
+            <footer class="card-footer">
+                <p><i class="bi bi-star-fill"></i> 5.0</p>
+                <p>110k+</p>
+            </footer>
+        </div>
+    </div>
+
+    <div class="card-game sombras-jogo" id="shadows-loja">
+        <img class="game-img" src="../images/sombras.png" alt="Sombras">
+        <div class="card-game-info">
+            <h3>Shadows Of Eldrazar</h3>
+            <h3>R$: 59.99</h3>
+            <p>FPS | Arcade</p>
+            <footer class="card-footer">
+                <p><i class="bi bi-star-fill"></i> 4.9</p>
+                <p>142k+</p>
+            </footer>
+        </div>
+    </div>
+
+    <div class="card-game guerra-jogo" id="guerra-loja">
+        <img class="game-img" src="../images/guerra.png" alt="Guerra">
+        <div class="card-game-info">
+            <h3>Neon Warfare</h3>
+            <h3>R$: 299.90</h3>
+            <p>FPS | Arcade</p>
+            <footer class="card-footer">
+                <p><i class="bi bi-star-fill"></i> 3.9</p>
+                <p>108k+</p>
+            </footer>
+        </div>
+    </div>
+
+    <div class="card-game quest-jogo" id="quest-loja">
+        <img class="game-img" src="../images/quest.png" alt="Quest">
+        <div class="card-game-info">
+            <h3>Shadow Quest</h3>
+            <h3>R$: 129.99</h3>
+            <p>FPS | Arcade</p>
+            <footer class="card-footer">
+                <p><i class="bi bi-star-fill"></i> 3.2</p>
+                <p>40k+</p>
+            </footer>
+        </div>
+    </div>
+    <!-- Fim do grid de jogos -->
+</section>
+    <!-- footer do site -->
+
+        <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-column">
+        <h3>Jogos</h3>
+        <ul>
+            <li><a href="#eclipse-loja">Eclipse</a></li>
+            <li><a href="#galatica-loja">Starbound</a></li>
+            <li><a href="#guerra-loja">Neon Warfare</a></li>
+            <li><a href="#shadows-loja">Shadows of Eldrazar</a></li>
+        </ul>
+        </div>
+
+        <div class="footer-column">
+        <h3>Lojas</h3>
+        <ul>
+            <li><a href="../pages/loja.html">Iara Games Store</a></li>
+            <li><a href="#">Fab</a></li>
+            <li><a href="#">Sketchfab</a></li>
+        </ul>
+        </div>
+
+        <div class="footer-column">
+        <h3>Ferramentas</h3>
+        <ul>
+            <li><a href="#">Unreal Engine</a></li>
+            <li><a href="#">MetaHuman</a></li>
+        </ul>
+        </div>
+
+        <div class="footer-column">
+        <h3>Empresa</h3>
+        <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Carreiras</a></li>
+        </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 - Todos os direitos reservados</p>
+    </div>
+    </footer>
+</body>
+</html>

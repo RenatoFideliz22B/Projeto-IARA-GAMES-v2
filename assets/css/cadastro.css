@@ -1,0 +1,219 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+/* VARIÁVEIS */
+:root {
+    --color-light: #f4f4f4;
+    --color-red: #ff0008;
+    --color-red-dark: #cc0000;
+    --color-black: #0b0b0b;
+
+    --bg-card: rgba(0, 0, 0, 0.85);
+
+    --radius: 10px;
+    --spacing-1: 10px;
+    --spacing-3: 20px;
+    --transition: .5s;
+}
+
+/* BODY CENTRALIZADO */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--color-black);
+    position: relative;
+}
+
+/* VIDEO */
+.video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+/* OVERLAY ESCURO */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    z-index: -1;
+}
+
+/* HEADER */
+header {
+    position: absolute;
+    top: 20px;
+    width: 90%;
+}
+
+
+
+/* BUSCA */
+.form-search {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* INPUT BUSCA */
+.text-search {
+    width: 300px;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid var(--color-red);
+    border-radius: var(--radius);
+    background: rgba(0,0,0,0.6);
+    color: var(--color-light);
+    transition: 0.3s;
+}
+
+.text-search::placeholder {
+    color: #aaa;
+}
+
+.text-search:focus {
+    outline: none;
+    box-shadow: 0 0 10px var(--color-red);
+}
+
+/* BOTÕES */
+.btn-form {
+    background: var(--color-red);
+    filter: drop-shadow(10px 10px 20px var(--color-red));
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: var(--radius);
+    transition: 0.3s;
+}
+
+.btn-form:hover {
+    background: var(--color-red-dark);
+    transform: scale(1.05);
+}
+
+/* MAIN */
+main {
+    width: 100%;
+    max-width: 700px;
+    z-index: 1;
+}
+
+/* FIELDSET */
+fieldset {
+    background: var(--bg-card);
+    border: 1px solid var(--color-red);
+    border-radius: var(--radius);
+    padding: 20px;
+    backdrop-filter: blur(8px);
+}
+
+/* LEGEND */
+legend {
+    color: var(--color-light);
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* GRID */
+.form-campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* SPAN 2 */
+.span-2 {
+    grid-column: span 2;
+}
+
+/* LABEL */
+label {
+    color: var(--color-light);
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* CAMPO COM ÍCONE */
+.form-field {
+    position: relative;
+}
+
+/* INPUTS */
+input, select {
+    width: 100%;
+    padding: 10px 35px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--color-red);
+    background: rgba(0,0,0,0.6);
+    color: var(--color-light);
+}
+
+/* ÍCONES */
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-red);
+    filter: drop-shadow(10px 10px 20px var(--color-red));
+    pointer-events: none;
+}
+
+/* FOCUS */
+input:focus, select:focus {
+    outline: none;
+    box-shadow: 0 0 10px var(--color-red);
+}
+
+/* SELECT */
+select {
+    appearance: none;
+    cursor: pointer;
+}
+
+/* BOTÃO CONTAINER */
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 800px) {
+
+    body {
+        padding: 20px;
+    }
+
+    .form-campos {
+        grid-template-columns: 1fr;
+    }
+
+    .span-2 {
+        grid-column: span 1;
+    }
+
+    .text-search {
+        width: 100%;
+    }
+
+    header {
+        position: static;
+        margin-bottom: 20px;
+    }
+}

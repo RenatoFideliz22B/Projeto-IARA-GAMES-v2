@@ -1,75 +1,160 @@
-# 🎮 IARA GAMES
+📄 SPRINT 02 – IARA GAMES
 
-## 📌 Contexto e Proposta
+🚀 EVOLUÇÃO E UX/UI
 
-O projeto IARA GAMES foi desenvolvido com o objetivo de simular uma plataforma moderna de compra e troca de jogos digitais.  
-A ideia é oferecer uma interface visual atrativa, inspirada no universo gamer, com foco em navegação simples e experiência do usuário.
+🚀 1. Evolução da Sprint 01 para a Sprint 02
 
-A página inicial apresenta os principais jogos em formato de grid, permitindo fácil visualização e organização das informações.
+Na Sprint 01, o projeto Iara Games foi desenvolvido com foco inicial na proposta da plataforma e na construção de uma interface básica, apresentando listagem de jogos e identidade visual inicial.
 
----
+Na Sprint 02, o projeto evoluiu significativamente, com melhorias estruturais, visuais e de experiência do usuário. A plataforma passou a contar com navegação mais completa, novas páginas (Home, Loja e Cadastro), além da organização do layout utilizando CSS Grid.
 
-## 🎯 Objetivos
+Também foram aplicadas melhorias de interface como estados de hover, focus e active, tornando a navegação mais intuitiva, responsiva e consistente.
 
-- Criar uma interface moderna e responsiva
-- Aplicar conceitos de HTML e CSS
-- Simular uma plataforma real de marketplace de games
-- Trabalhar identidade visual voltada ao público gamer
+Essa evolução torna o projeto mais próximo de um produto digital funcional, com foco no usuário e na usabilidade.
 
----
+👤 2. Persona
+Nome: Lucas Andrade
+Idade: 17 anos
+Perfil: Estudante do ensino médio
 
-## 🎨 Design
+🎯 Interesses:
+Jogos digitais
+Tecnologia
+Conteúdos interativos
 
-O design foi desenvolvido com base em:
+🎯 Objetivos:
+Encontrar jogos de forma rápida e prática
+Descobrir novos jogos com facilidade
+Ter uma experiência simples e intuitiva
 
-- Tema escuro (dark mode), comum em plataformas gamers
-- Destaque em cores vibrantes (vermelho) para chamar atenção
-- Uso de tipografia moderna (Google Fonts)
-- Elementos visuais como vídeo de fundo para maior imersão
+⚠️ Dores:
+Plataformas confusas e poluídas
+Excesso de informação na interface
+Dificuldade de navegação
 
----
+💡 Necessidades:
+Interface clara e organizada
+Navegação simples e rápida
+Feedback visual nas interações
 
-## 🧑‍💻 UX (Experiência do Usuário)
+🌱 3. ESG no Projeto
 
-- Navegação simples e direta
-- Botões bem destacados (Call to Action)
-- Grid organizado para facilitar leitura dos jogos
-- Hierarquia visual clara (títulos, textos, avaliações)
+O projeto Iara Games considera princípios de ESG aplicados ao contexto digital:
 
----
+🌍 Ambiental (Environmental)
+Otimização da interface para melhor performance e menor consumo de recursos
+Design leve e organizado, reduzindo sobrecarga visual e de carregamento
+Incentivo a conteúdos e jogos com temáticas educativas e de conscientização
 
-## ♿ Acessibilidade
+👥 Social
+Interface acessível para diferentes perfis de usuários
+Foco na inclusão de jogadores iniciantes e casuais
+Promoção de uma experiência digital mais intuitiva e amigável
 
-- Uso de `alt` nas imagens
-- Estrutura semântica com HTML
-- Contraste entre texto e fundo para melhor leitura
-- Layout adaptável (responsivo)
+🏛️ Governança
+Estrutura de código organizada e padronizada
+Uso de HTML semântico para melhor legibilidade e manutenção
+Planejamento do sistema com foco em escalabilidade futura
+🧱 4. Estrutura e Layout
 
----
+A estrutura do projeto foi desenvolvida utilizando HTML semântico, com elementos como:
 
-## 🚀 Tecnologias Utilizadas
+<header>, <nav>, <main>, <section> e <footer>.
 
-- HTML5
-- CSS3
+O layout foi construído com CSS Grid, permitindo melhor organização dos elementos e facilitando a responsividade da interface.
 
----
+Foram desenvolvidas múltiplas páginas, incluindo:
 
-## 📂 Estrutura do Projeto
+Página inicial (Home)
+Página de loja (Store)
+Página de cadastro
 
-- home.html  
-- assets/
-- css/
-- images/
-- videos/
+A navegação entre páginas foi implementada de forma funcional, proporcionando uma experiência fluida e consistente ao usuário.
 
----
+📝 5. Formulário
 
-## 🔗 Link do Repositório
+Foi implementado um formulário de cadastro com foco em usabilidade e organização.
 
---- https://github.com/RenatoFideliz22B/Projeto-IARA-GAMES-v2.git
+Campos incluídos:
+Nome
+E-mail
+Senha
+Telefone
+Data de nascimento
+Tipo de conta
+Boas práticas aplicadas:
+Uso correto de labels
+Tipos adequados de input
+Estrutura visual organizada com grid
+Feedback visual em foco (focus state)
 
-## 👨‍💻 Autor
+O objetivo foi garantir facilidade de preenchimento e melhor experiência do usuário.
 
-Renato Fideliz dos Santos Menezes RM: 570075
+🎨 6. UI (Interface do Usuário)
 
-- OBS: Acabei percebendo que faltou certas coisas mas vou corrigir isso no futuro, perdão.
+A interface foi desenvolvida com base em um estilo dark mode, proporcionando maior conforto visual e destacando elementos interativos.
+
+Foi definida uma paleta de cores consistente utilizando variáveis no :root, garantindo padronização visual em toda a aplicação.
+
+🎯 Cores principais:
+#0b0b0b → fundo principal
+#0d0d0d → áreas secundárias
+#FF0008 → cor de destaque e interação
+
+🎯 Cores auxiliares:
+#f4f4f4 → textos principais
+#777 → textos secundários
+#aaa → elementos menos prioritários
+
+Além disso, foram aplicados efeitos visuais como:
+
+Hover em botões e links
+Estados de focus em inputs
+Efeito de brilho (glow) em elementos interativos
+
+A tipografia Red Hat Display foi utilizada para garantir modernidade e legibilidade.
+
+O uso de espaçamento, alinhamento e grid resultou em uma interface mais equilibrada, limpa e organizada.
+
+🧠 7. UX (Experiência do Usuário)
+
+As decisões de UX foram baseadas na necessidade da persona, priorizando simplicidade e eficiência.
+
+Melhorias aplicadas:
+Navegação com menu principal organizado
+Barra de busca para facilitar a descoberta de jogos
+Indicação de página ativa no menu
+Feedback visual em interações (hover, focus e active)
+Organização de conteúdos por categorias
+
+Essas melhorias reduzem a complexidade da navegação e tornam a experiência mais intuitiva e fluida.
+
+💻 8. Git e GitHub
+
+O projeto foi organizado em um repositório público no GitHub, com estrutura clara de arquivos e pastas.
+
+Organização:
+Separação entre HTML, CSS e assets
+Código estruturado e legível
+README com documentação do projeto
+
+Essa organização facilita a manutenção, evolução e colaboração futura no projeto.
+
+📈 9. Conclusão
+
+A Sprint 02 representa uma evolução significativa do projeto Iara Games.
+
+A plataforma passou de uma versão inicial para um sistema mais estruturado, com múltiplas páginas, navegação funcional, formulário implementado e melhorias claras de UX/UI.
+
+O foco no usuário foi reforçado, resultando em uma experiência mais intuitiva, acessível e consistente.
+
+O projeto agora se aproxima de um produto digital real, com base sólida para futuras evoluções.
+
+🔗 10. Links
+Repositório GitHub:
+
+https://github.com/RenatoFideliz22B/Projeto-IARA-GAMES-v2.git
+
+Vídeo Pitch:
+
+(coloque aqui)
