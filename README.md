@@ -13,14 +13,16 @@ Também foram aplicadas melhorias de interface como estados de hover, focus e ac
 Essa evolução torna o projeto mais próximo de um produto digital funcional, com foco no usuário e na usabilidade.
 
 👤 2. Persona
-Nome: Lucas Andrade
-Idade: 17 anos
-Perfil: Estudante do ensino médio
+Nome: Gustavo Miranda
+Idade: 18 anos
+Perfil: Graduando em Publicidade e Propaganda
 
 🎯 Interesses:
 Jogos digitais
 Tecnologia
 Conteúdos interativos
+Publicidade
+Fotografia
 
 🎯 Objetivos:
 Encontrar jogos de forma rápida e prática
@@ -45,12 +47,10 @@ O projeto Iara Games considera princípios de ESG aplicados ao contexto digital:
 Otimização da interface para melhor performance e menor consumo de recursos
 Design leve e organizado, reduzindo sobrecarga visual e de carregamento
 Incentivo a conteúdos e jogos com temáticas educativas e de conscientização
-
 👥 Social
 Interface acessível para diferentes perfis de usuários
 Foco na inclusão de jogadores iniciantes e casuais
 Promoção de uma experiência digital mais intuitiva e amigável
-
 🏛️ Governança
 Estrutura de código organizada e padronizada
 Uso de HTML semântico para melhor legibilidade e manutenção
@@ -157,4 +157,6 @@ https://github.com/RenatoFideliz22B/Projeto-IARA-GAMES-v2.git
 
 Vídeo Pitch:
 
-(coloque aqui)
+https://youtu.be/XcuoEZZotDI?si=NTCo4DDEnbKDW0hW
+
+Autoria: Renato Fideliz dos Santos Menezes
